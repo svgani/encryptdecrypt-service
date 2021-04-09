@@ -1,0 +1,12 @@
+spring:
+server:
+  port: 9083
+  main:
+    banner-mode: "console"
+  banner.location: banner.txt
+  application:
+    name: encryptdecrypt-service
+  servlet:
+    context-path: /encryptdecrypt-service
+test.private.key: /var/log/exported/test-private.pem
+test.public.key: /var/log/exported/test-public.pem
