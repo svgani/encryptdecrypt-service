@@ -8,3 +8,5 @@ server:
     name: encryptdecrypt-service
   servlet:
     context-path: /encryptdecrypt-service
+test.private.key: C://nxp//workspaces//springboot//github//encryptdecrypt-service//src//main//resources//test-private.pem
+test.public.key: C://nxp//workspaces//springboot//github//encryptdecrypt-service//src//main//resources//test-public.pem
